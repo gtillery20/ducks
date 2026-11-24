@@ -7,6 +7,8 @@ website:
     left:
       - href: map.qmd
         text: Map
+      - href: seasons.qmd
+        text: Seasons
 
 execute:
   echo: false
