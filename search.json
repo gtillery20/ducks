@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Mallard Duck Movement\nLake Constance, where Germany, Switzerland, and Austria meet, is a starting point for many of the tracked fixes. The records extend north-east across central Europe into Poland. The data come from the mallard tracking CSV in PPBDS’s misc.tutorials repository.\nRecorded fixes are most numerous in September, with many also in August. Typical recorded speeds are higher from July through September, suggesting increased movement in late summer and early autumn. Explore the locations on the Map page and monthly patterns on the Seasons page."
+  },
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Seasons",
+    "section": "",
+    "text": "Picking joint bandwidth of 0.0381"
+  }
+]
