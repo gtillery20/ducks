@@ -13,16 +13,6 @@ mallards <- readRDS("data/mallards.rds")
 ```
 
 ```{r}
-mallards |>
-  count(month, month_num, name = "fixes") |>
-  arrange(month_num)
-```
-
-```{r}
-summary(mallards$speed)
-```
-
-```{r}
 mallards_filtered <- mallards |>
   filter(!is.na(speed), speed <= 30)
 

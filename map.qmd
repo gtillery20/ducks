@@ -33,21 +33,6 @@ saveRDS(mallards, "data/mallards.rds")
 ```
 
 ```{r}
-mallards |>
-  count(duck_id, sort = TRUE)
-```
-
-```{r}
-mallards |>
-  summarise(
-    min_lat = min(lat, na.rm = TRUE),
-    max_lat = max(lat, na.rm = TRUE),
-    min_long = min(long, na.rm = TRUE),
-    max_long = max(long, na.rm = TRUE)
-  )
-```
-
-```{r}
 #| fig-width: 8
 #| fig-height: 9
 regional_mallards <- mallards |>
