@@ -3,3 +3,10 @@ project:
 
 website:
   title: "Mallard Duck Movement"
+  navbar:
+    left:
+      - href: map.qmd
+        text: Map
+
+execute:
+  echo: false
